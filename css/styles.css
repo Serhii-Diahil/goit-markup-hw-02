@@ -20,16 +20,6 @@ address {
   font-style: normal;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  overflow: hidden;
-}
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -97,7 +87,7 @@ address {
 }
 .hero-button:hover,
 .hero-button:focus {
-  background: #404bbf;
+  background-color: #404bbf;
 }
 
 /*-----------------------*/
@@ -121,7 +111,7 @@ address {
 
 /*----------TEAM----------*/
 .team {
-  background: #f4f4fd;
+  background-color: #f4f4fd;
 }
 .team-item {
   background-color: #ffffff;
