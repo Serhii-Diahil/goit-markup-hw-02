@@ -1,6 +1,3 @@
-/* font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif; */
-
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -57,7 +54,7 @@ address {
 }
 
 .nav-link:hover,
-.nav-link:active {
+.nav-link:focus {
   color: #404bbf;
 }
 
@@ -68,7 +65,8 @@ address {
   color: #434455;
 }
 
-.contacts-link:hover {
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
 }
 
@@ -97,7 +95,8 @@ address {
   letter-spacing: 0.04em;
   color: #fff;
 }
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
   background: #404bbf;
 }
 
@@ -124,7 +123,9 @@ address {
 .team {
   background: #f4f4fd;
 }
-
+.team-item {
+  background-color: #ffffff;
+}
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -132,6 +133,7 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .team-item-title {
@@ -163,6 +165,7 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .portfolio-list {
